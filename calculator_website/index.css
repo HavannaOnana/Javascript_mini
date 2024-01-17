@@ -1,0 +1,44 @@
+table{
+    border-collapse: collapse 10%;
+    width: 10%;
+    margin: 0 auto;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+}
+
+th {
+    background-color: lightgray;
+  }
+  
+  .C {
+    background-color: gray;
+  }
+  
+  .per {
+    background-color: gray;
+  }
+  
+  .x {
+    background-color: gray;
+  }
+  
+  .div {
+    background-color: gray;
+  }
+  
+  .sign {
+    background-color: gray;
+  }
+  
+  .equal {
+    background-color: tomato;
+  }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Website</title>
+    <link rel="stylesheet" href="/calculator_website/index.css">
+</head>
+<body>
+  
+
+    <table>
+        <tr>
+            <td colspan="4">
+                <label for="result">Result:</label>
+                <input type="text" id="result" name="expression"  size="30">
+            </td>
+        </tr>
+
+         
+        <tr>
+            <th class="C"><button type="button" onclick="appendToResult('C')">C</button></th>
+            <th class="per"><button type="button" onclick="appendToResult('%')">%</button></th>
+            <th class="x"><button type="button" onclick="appendToResult('X')">X</button></th>
+            <th class="div"><button type="button" onclick="appendToResult('/')">:</button></th>
+        </tr>
+        <tr>
+            <th><button type="button" onclick="appendToResult('7')">7</button></th>
+            <th><button type="button" onclick="appendToResult('8')">8</button></th>
+            <th><button type="button" onclick="appendToResult('9')">9</button></th>
+            <th class="sign"><button type="button" onclick="appendToResult('*')">x</button></th>
+        </tr>
+        <tr>
+            <th><button type="button" onclick="appendToResult('4')">4</button></th>
+            <th><button type="button" onclick="appendToResult('5')">5</button></th>
+            <th><button type="button" onclick="appendToResult('6')">6</button></th>
+            <th class="sign"><button type="button" onclick="appendToResult('-')">-</button></th>
+        </tr>
+        <tr>
+            <th><button type="button" onclick="appendToResult('1')">1</button></th>
+            <th><button type="button" onclick="appendToResult('2')">2</button></th>
+            <th><button type="button" onclick="appendToResult('3')">3</button></th>
+            <th class="sign"><button type="button" onclick="appendToResult('+')">+</button></th>
+        </tr>
+        <tr>
+            <th><button type="button" onclick="appendToResult('00')">00</button></th>
+            <th><button type="button" onclick="appendToResult('0')">0</button></th>
+            <th><button type="button" onclick="appendToResult('.')">.</button></th>
+            <th class="equal"><button type="button" onclick="calculateResult()">=</button></th>
+        </tr>
+
+    </table>
+
+
+    <script src="/calculator_website/index.js"></script>
+</body>
+</html>
